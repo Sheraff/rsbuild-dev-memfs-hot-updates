@@ -1,0 +1,11 @@
+{
+  "name": "rsbuild-dev-memfs-hot-updates",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "repro": "node repro.mjs"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "2.2.14"
+  }
+}
