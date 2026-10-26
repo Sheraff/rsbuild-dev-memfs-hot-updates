@@ -1,5 +1,7 @@
 # Rsbuild dev server: in-memory output file system keeps every hot-update file
 
+Issue: https://github.com/web-infra-dev/rsbuild/issues/8736
+
 `repro.mjs` starts `createRsbuild().startDevServer()` (no browser), rewrites `src/index.js` N times, waits for each
 compilation, and lists the files in `compiler.outputFileSystem` (the dev middleware's memfs).
 
